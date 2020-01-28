@@ -7,7 +7,7 @@ help:
 	@echo " make release -- pushes to pypi"
 
 test:
-	tox
+	python manage.py test
 
 release:
 	rm -rf dist
