@@ -1,22 +1,23 @@
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': ':memory:',
+    "default": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": ":memory:",
     },
 }
 
 INSTALLED_APPS = (
-    'django.contrib.contenttypes',
-
-    'generic_relations',
-    'generic_relations.tests',
+    "django.contrib.contenttypes",
+    "generic_relations",
+    "generic_relations.tests",
 )
 
-ROOT_URLCONF = ''
+ROOT_URLCONF = ""
 
-SECRET_KEY = 'abcde12345'
+SECRET_KEY = "abcde12345"
 
 MIDDLEWARE_CLASSES = (
-    'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware'
+    "django.middleware.common.CommonMiddleware",
+    "django.middleware.csrf.CsrfViewMiddleware",
 )
+
+USE_TZ = True
