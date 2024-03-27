@@ -10,7 +10,9 @@ I don't intend to make any major changes to this library, but I will attempt to 
 
 # Requirements
 
-Any currently-supported combination of Django REST Framework, Python, and Django.
+* At least Python 3.8
+* A supported version of Django REST Framework (at least 3.12+)
+* A supported version of Django (at least 3.2+)
 
 # Installation
 
