@@ -11,5 +11,5 @@ test:
 
 release:
 	rm -rf dist
-	python setup.py sdist bdist_wheel
+	pyproject-build
 	twine upload dist/*

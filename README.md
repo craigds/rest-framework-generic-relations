@@ -1,7 +1,12 @@
-# Rest Framework Generic Relations [![Build Status](https://github.com/Ian-Foote/rest-framework-generic-relations/actions/workflows/tests.yml/badge.svg)](https://github.com/Ian-Foote/rest-framework-generic-relations/actions/workflows/tests.yml)
-
+# Rest Framework Generic Relations [![Build Status](https://github.com/craigds/rest-framework-generic-relations/actions/workflows/tests.yml/badge.svg)](https://github.com/craigds/rest-framework-generic-relations/actions/workflows/tests.yml)
 
 This library implements [Django REST Framework](http://www.django-rest-framework.org/) serializers to handle generic foreign keys.
+
+# Maintenance status
+
+Originally by Lily Foote. now maintained by Craig de Stigter.
+
+I don't intend to make any major changes to this library, but I will attempt to fix reported bugs and keep it up to date with recent versions of Python / Django / DRF.
 
 # Requirements
 

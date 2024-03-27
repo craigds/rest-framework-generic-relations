@@ -1,0 +1,45 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[project]
+authors = [
+  {name = "Lily Foote"},
+  {name = "Craig de Stigter"},
+]
+classifiers = [
+  "Environment :: Web Environment",
+  "Framework :: Django",
+  "Intended Audience :: Developers",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: Implementation :: CPython",
+  "Programming Language :: Python :: Implementation :: PyPy",
+  "Framework :: Django :: 2.2",
+  "Framework :: Django :: 3.0",
+  "Framework :: Django :: 3.1",
+  "Framework :: Django :: 3.2",
+  "Framework :: Django :: 4.0",
+  "Framework :: Django :: 4.1",
+  "License :: OSI Approved :: BSD License",
+]
+dependencies = [
+  "djangorestframework>=3.11.0",
+]
+description = "Generic Relations for Django Rest Framework"
+dynamic = ["readme"]
+name = "rest-framework-generic-relations"
+requires-python = ">=3.6"
+version = "2.2.0"
+
+[tool.setuptools.dynamic]
+readme = {file = "README.md", content-type = "text/markdown"}
+
+[project.urls]
+Source = "https://github.com/craigds/rest-framework-generic-relations"
