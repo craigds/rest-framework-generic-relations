@@ -1,5 +1,11 @@
 # Rest Framework Generic Relations Changelog
 
+## v2.2.0
+
+* Change of maintainer
+* Require Python 3.8+, Django 3.2+, DRF 3.12+
+* Remove `generic_relations.__version__`. If you need to query the version, use `importlib.metadata.version('rest-framework-generic-relations')` instead.
+
 ## v2.1.0
 
 General dependency update
