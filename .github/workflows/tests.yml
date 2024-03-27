@@ -11,12 +11,17 @@ jobs:
         django-version:
           - "3.2"
           - "4.2"
+          - "5.0"
         drf-version:
           - "3.13"
           - "3.15"
         exclude:
           - django-version: "3.2"
             python-version: "3.12"
+          - django-version: "5.0"
+            python-version: "3.8"
+          - django-version: "5.0"
+            drf-version: "3.13"
 
     name: "py${{ matrix.python-version}} dj${{ matrix.django-version }} drf${{ matrix.drf-version }}"
 
